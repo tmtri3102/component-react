@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, StrictMode } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
@@ -59,8 +59,8 @@ const students = [
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <>
+  <StrictMode>
     <App />
-  </>
+  </StrictMode>
 );
 reportWebVitals();
