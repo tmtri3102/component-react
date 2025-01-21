@@ -1,11 +1,10 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import Calculator from "./components/Calculator";
-import Student from "./components/Student";
+import Collapse from "./components/Collapse";
 function App() {
   return (
     <div className="container">
-      <Student />
+      <Collapse />
     </div>
   );
 }
