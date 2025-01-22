@@ -1,10 +1,10 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Student from "./components/Student";
+import Task from "./components/Task";
 function App() {
   return (
     <div className="container">
-      <Student />
+      <Task />
     </div>
   );
 }
